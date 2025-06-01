@@ -1,2 +1,3 @@
-# example-vercel
-Just an example react application to be published with vercel.
+# React + Vite + Vercel
+
+Just an example project
