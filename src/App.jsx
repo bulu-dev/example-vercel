@@ -1,9 +1,16 @@
+import { useState } from 'react'
 import './App.css'
 
 function App() {
+  const [to, setTo] = useState("World");
+
+  const handleClick = () => {
+    setTo("Vercel");
+  }
+
   return (
     <>
-      Hello, World!
+      Hello, <span onClick={handleClick}>{to}</span>!
     </>
   )
 }
